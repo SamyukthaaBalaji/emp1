@@ -17,7 +17,7 @@ function Login() {
         return toast("Enter Email &  Password");
       }
       const body = { email: email, password: password };
-      const response = await fetch(`https://13.232.33.62:9000/auth/login`, {
+      const response = await fetch(`http://13.232.33.62:9000/auth/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),

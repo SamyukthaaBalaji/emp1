@@ -6,7 +6,7 @@ function DashBoard() {
   const deleteemp = async (employee_id) => {
     try {
       const delemp = await fetch(
-        `https://13.232.33.62:9000/user/delemp/${employee_id}`,
+        `http://13.232.33.62:9000/user/delemp/${employee_id}`,
         {
           method: "DELETE",
         }
@@ -19,7 +19,7 @@ function DashBoard() {
 
   const userdet = async () => {
     try {
-      const response = await fetch("https://13.232.33.62:9000/user/getemp");
+      const response = await fetch("http://13.232.33.62:9000/user/getemp");
       const jsondata = await response.json();
       setdet(jsondata);
     } catch (error) {
