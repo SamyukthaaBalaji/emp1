@@ -1,0 +1,29 @@
+.container-fluid {
+    /* background-image: url('path/to/your/image.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gradient-background {
+    background: linear-gradient(135deg, #7c007c, #ff0b0bbb);
+    color: white;
+  }
+  .btn-group {
+    margin-top: 10px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  
+ 
+  
+  
